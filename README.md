@@ -1,29 +1,29 @@
-[![Documentation Status](https://readthedocs.org/projects/verifai/badge/?version=latest)](https://verifai.readthedocs.io/en/latest/?badge=latest)
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![Documentation Status](https://readthedocs.org/projects/verifai/badge/?version=latest)](https://verifai.readthedocs.io/en/latest/?badge=latest)  
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)  
 
+# VerifAI  
 
-# VerifAI
+*VerifAI* is a software toolkit designed for the formal analysis and design of systems that incorporate artificial intelligence (AI) and machine learning (ML) components.  
+The project focuses on applying formal methods to perception and learning-based components, including neural networks, while modeling and analyzing system behavior in uncertain environments.  
 
-**VerifAI** is a software toolkit for the formal design and analysis of 
-systems that include artificial intelligence (AI) and machine learning (ML)
-components.
-VerifAI particularly seeks to address challenges with applying formal methods to perception and ML components, including those based on neural networks, and to model and analyze system behavior in the presence of environment uncertainty.
-The current version of the toolkit performs intelligent simulation guided by formal models and specifications, enabling a variety of use cases including temporal-logic falsification (bug-finding), model-based systematic fuzz testing, parameter synthesis, counterexample analysis, and data set augmentation. Further details may be found in our [CAV 2019 paper](https://people.eecs.berkeley.edu/~sseshia/pubs/b2hd-verifai-cav19.html).
+The current version of the toolkit enables intelligent simulation guided by formal models and specifications, supporting various applications, including:  
+- Temporal-logic falsification (bug detection).  
+- Model-based robustness testing.  
+- Parameter synthesis.  
+- Counterexample analysis.  
+- Dataset augmentation.  
 
-Please see the [documentation](https://verifai.readthedocs.io/) for installation instructions, tutorials, publications using VerifAI, and more.
+Further details can be found in the [CAV 2019 paper](https://people.eecs.berkeley.edu/~sseshia/pubs/b2hd-verifai-cav19.html).  
 
-VerifAI was designed and implemented by Tommaso Dreossi, Daniel J. Fremont, Shromona Ghosh, Edward Kim, Hadi Ravanbakhsh, Marcell Vazquez-Chanlatte, and Sanjit A. Seshia. 
+For installation instructions, tutorials, and publications using VerifAI, please refer to the [documentation](https://verifai.readthedocs.io/).  
 
-If you use VerifAI in your work, please cite our [CAV 2019 paper](https://people.eecs.berkeley.edu/~sseshia/pubs/b2hd-verifai-cav19.html) and this website.
+### Author  
 
-If you have any problems using VerifAI, please submit an issue to the GitHub repository or contact Daniel Fremont at [dfremont@ucsc.edu](mailto:dfremont@ucsc.edu) or Edward Kim at [ek65@berkeley.edu](mailto:ek65@berkeley.edu).
+This project was developed by *Asala AboRass*, with contributions from other researchers in the field.  
 
-### Repository Structure
+### Repository Structure  
 
-* _docs_: sources for the [documentation](https://verifai.readthedocs.io/);
-
-* _examples_: examples and additional documentation for particular simulators, including CARLA, Webots, X-Plane, and OpenAI Gym;
-
-* _src/verifai_: the source for the `verifai` package proper;
-
-* _tests_: the VerifAI test suite.
+- *docs*: Source files for the [documentation](https://verifai.readthedocs.io/).  
+- *examples*: Examples and additional documentation for specific simulators, including CARLA, Webots, X-Plane, and OpenAI Gym.  
+- *src/verifai*: The source code for the verifai package.  
+- *tests*: The VerifAI test suite.
