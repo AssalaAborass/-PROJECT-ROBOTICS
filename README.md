@@ -1,4 +1,4 @@
-#PROJECT-ROBOTICS
+# PROJECT-ROBOTICS  
 
 *PROJECT-ROBOTICS* is a software toolkit designed for the formal analysis and design of robotic systems that incorporate artificial intelligence (AI) and machine learning (ML) components.  
 The project focuses on applying formal methods to perception and learning-based components, including neural networks, while modeling and analyzing system behavior in uncertain environments.  
@@ -20,5 +20,5 @@ This project was developed by *Asala Aborass*, with contributions from other res
 
 - *docs*: Source files for the documentation.  
 - *examples*: Examples and additional documentation for specific simulators, including CARLA, Webots, X-Plane, and OpenAI Gym.  
-- *src/robotics_project*: The source code for the Robotics Project package.  
+- *src/project_robotics*: The source code for the PROJECT-ROBOTICS package.  
 - *tests*: The PROJECT-ROBOTICS test suite.  
